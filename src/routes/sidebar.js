@@ -12,6 +12,11 @@ const routes = [
     name: 'Dashboard', // name that appear in Sidebar
   },
   {
+    path: '/app/aggrid', // the url
+    icon: 'ChartsIcon', // the component being exported from icons/index.js
+    name: 'AGGrid', // name that appear in Sidebar
+  },
+  {
     path: '/app/forms',
     icon: 'FormsIcon',
     name: 'Forms',
